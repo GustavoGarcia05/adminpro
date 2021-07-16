@@ -1,1 +1,57 @@
-<p>graficas1 works!</p>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="card-tittle"> {{graficos.grafico1.leyenda}} </h3>
+
+                <app-grafico-dona [etiquetas]="graficos.grafico1.labels" [datos]="graficos.grafico1.data" [tipoGrafica]="graficos.grafico1.type"> </app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="card-tittle"> {{graficos.grafico2.leyenda}} </h3>
+
+                <app-grafico-dona [etiquetas]="graficos.grafico2.labels" [datos]="graficos.grafico2.data" [tipoGrafica]="graficos.grafico2.type"> </app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="card-tittle"> {{graficos.grafico3.leyenda}} </h3>
+
+                <app-grafico-dona [etiquetas]="graficos.grafico3.labels" [datos]="graficos.grafico3.data" [tipoGrafica]="graficos.grafico3.type"> </app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+                <h3 class="card-tittle"> {{graficos.grafico4.leyenda}} </h3>
+
+                <app-grafico-dona [etiquetas]="graficos.grafico4.labels" [datos]="graficos.grafico4.data" [tipoGrafica]="graficos.grafico4.type"> </app-grafico-dona>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
